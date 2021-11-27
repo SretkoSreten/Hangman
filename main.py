@@ -47,7 +47,7 @@ def draw():
     WIN.blit(img, (400, 200))
 
     for i in range(6):
-        WIN.blit(pygame.image.load(os.path.join('C:/Users/PC/Desktop/Python/games/hangman/images', 
+        WIN.blit(pygame.image.load(os.path.join('*enter full path of images', 
     'hangman' + str(img_status) + '.png'
 )), (100, 100))
 
